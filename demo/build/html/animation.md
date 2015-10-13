@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="zh-cmn-Hans">
   <head>
     <meta charset="utf-8">
@@ -9,7 +8,114 @@
     <meta content="telephone=no,email=no" name="format-detection">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <title>YYwork animation</title>
-    <link rel="stylesheet" type="text/css" href="../css/animation.css">
+    <style type="text/css">
+.tansform {
+  position: relative;
+}
+
+.demo {
+  border: 1px solid #ddd;
+  background-color: #fff;
+  text-align: center;
+}
+
+.square {
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  width: 100px;
+  height: 100px;
+  background-color: #37a508;
+  border: 1px solid #555;
+}
+
+.demo-vertical {
+  position: absolute;
+  display: inline-block;
+  vertical-align: middle;
+  *vertical-align: auto;
+  *zoom: 1;
+  *display: inline;
+  width: 100px;
+  height: 100%;
+  border: 1px solid #ddd;
+  left: 50%;
+  margin-left: -50px;
+}
+
+.rotate {
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.translate {
+  -moz-transform: translate(100px, 20px);
+  -ms-transform: translate(100px, 20px);
+  -webkit-transform: translate(100px, 20px);
+  transform: translate(100px, 20px);
+}
+
+.translate-x {
+  -moz-transform: translateX(100px);
+  -ms-transform: translateX(100px);
+  -webkit-transform: translateX(100px);
+  transform: translateX(100px);
+}
+
+.translate-y {
+  -moz-transform: translateY(20px);
+  -ms-transform: translateY(20px);
+  -webkit-transform: translateY(20px);
+  transform: translateY(20px);
+}
+
+.scale {
+  -moz-transform: scale(2, 1.5);
+  -ms-transform: scale(2, 1.5);
+  -webkit-transform: scale(2, 1.5);
+  transform: scale(2, 1.5);
+}
+
+.scale-x {
+  -moz-transform: scaleX(2);
+  -ms-transform: scaleX(2);
+  -webkit-transform: scaleX(2);
+  transform: scaleX(2);
+}
+
+.scale-y {
+  -moz-transform: scaleY(1.5);
+  -ms-transform: scaleY(1.5);
+  -webkit-transform: scaleY(1.5);
+  transform: scaleY(1.5);
+}
+
+.skew {
+  -moz-transform: skew(30deg, 10deg);
+  -ms-transform: skew(30deg, 10deg);
+  -webkit-transform: skew(30deg, 10deg);
+  transform: skew(30deg, 10deg);
+}
+
+.skew-x {
+  -moz-transform: skewX(30deg);
+  -ms-transform: skewX(30deg);
+  -webkit-transform: skewX(30deg);
+  transform: skewX(30deg);
+}
+
+.skew-y {
+  -moz-transform: skewY(10deg);
+  -ms-transform: skewY(10deg);
+  -webkit-transform: skewY(10deg);
+  transform: skewY(10deg);
+}
+
+    </style>
   </head>
   <body>
     <h2>tansform</h2>
